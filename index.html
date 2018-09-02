@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../GIPHY//assets/CSS/styles.css">
+    <link rel="stylesheet" type="text/css" href="../GIPHY/assets/CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
     <title>The Reaction Machine</title>
 </head>
 
@@ -21,10 +22,10 @@
                 <hr class="my-4">
                 <p>Click on an emotion below to generate 10 random reaction GIF's from GIPHY. Don't see an emotion? Add it yourself!</p>
                 <br>
-                <form id="reactionForm" align="center">
+                <form class="reactionForm" align="center" id="reactionSearch">
                     <label for="reactionInput">I'm feeling...</label>
                     <input type="text" id="reactionInput">
-
+                    <!--Click to add reactions-->
                     <input id="addReaction" type="submit" value="Submit">
                 </form>
             </div>

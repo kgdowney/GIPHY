@@ -1,0 +1,22 @@
+.jumbotron {
+    background-color: #4ABDAC;
+    color:white;
+}
+.lead {
+    color:#f7b733;
+    font-weight: bold;
+}
+.display-4 {
+    font-family: 'Alfa Slab One', cursive;
+}
+body {
+    background-color: #DFDCE3;
+}
+.card-title {
+    color:#fC4A1a;
+    font-family:'Alfa Slab One', cursive;
+}
+#reactionInput {
+    font-weight: bold;
+    color:#fC4A1a;
+}

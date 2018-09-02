@@ -1,4 +1,4 @@
-
+$(document).ready(function() {
     //Array for searched reactions to be added
     var emotions = [];
     
@@ -69,7 +69,7 @@
     
       //Click event on button with id of "reaction" executes displayReactions function
       $(document).on("click", "#reaction", displayReactions);
-    
+      
       //Click event on gifs with class of "reactionGiphy" executes pausePlayGifs function
       $(document).on("click", ".reactionGiphy", pausePlayGifs);
     
@@ -85,4 +85,4 @@
       }
     }
     
-  
+  });
