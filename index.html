@@ -9,6 +9,7 @@
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../GIPHY/assets/CSS/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <title>The Reaction Machine</title>
 </head>
 
@@ -28,6 +29,8 @@
                     <!--Click to add reactions-->
                     <input id="addReaction" type="submit" value="Submit">
                 </form>
+
+                
             </div>
         </div>
     </div>
@@ -41,13 +44,13 @@
                     <h5 class="card-title">Reactional Buttons</h5>
                     <hr class="my-4">
                     <div class="btn-group">
-                            <button class="btn btn-secondary" id="reaction" data-search="happy">Happy</button>
-                            <button class="btn btn-secondary" id="reaction" data-search="sad">Sad</button>
-                            <button class="btn btn-secondary" id="reaction" data-search="angry">Angry</button>
-                            <button class="btn btn-secondary" id="reaction" data-search="disgust">Disgusted</button>
-                            <button class="btn btn-secondary" id="reaction" data-search="fear">Scared</button>
+                            <button class="btn btn-secondary" id="theReaction" data-search="happy">Happy</button>
+                            <button class="btn btn-secondary" id="theReaction" data-search="sad">Sad</button>
+                            <button class="btn btn-secondary" id="theReaction" data-search="angry">Angry</button>
+                            <button class="btn btn-secondary" id="theReaction" data-search="disgust">Disgusted</button>
+                            <button class="btn btn-secondary" id="theReaction" data-search="fear">Scared</button>
                           </div>
-                    <div id="reactionButtons"></div>
+                    <div id="myButtons"></div>
                 </div>
             </div>
         </div>
