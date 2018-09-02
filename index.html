@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../GIPHY//assets/CSS/styles.css">
+    <title>The Reaction Machine</title>
+</head>
+
+<body>
+    <!--This is the jumbotron, which includes description and reaction form to add a button to the card below-->
+    <div class="row">
+        <div class="col">
+            <div class="jumbotron">
+                <h1 class="display-4">The Reaction Machine</h1>
+                <p class="lead">Sometimes you need a GIF to share what you're truely feeling.</p>
+                <hr class="my-4">
+                <p>Click on an emotion below to generate 10 random reaction GIF's from GIPHY. Don't see an emotion? Add it yourself!</p>
+                <br>
+                <form id="reactionForm" align="center">
+                    <label for="reactionInput">I'm feeling...</label>
+                    <input type="text" id="reactionInput">
+
+                    <input id="addReaction" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--This is a card for the buttons using javascript/jquery-->
+    <div class="container"></div>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Reactional Buttons</h5>
+                    <hr class="my-4">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" id="reaction" class="btn btn-secondary" data-search="happy">Happy</button>
+                            <button type="button" id="reaction" class="btn btn-secondary" data-search="sad">Sad</button>
+                            <button type="button" id="reaction" class="btn btn-secondary" data-search="angry">Angry</button>
+                            <button type="button" id="reaction" class="btn btn-secondary" data-search="disgust">Disgusted</button>
+                            <button type="button" id="reaction" class="btn btn-secondary" data-search="fear">Scared</button>
+                          </div>
+                    <div id="reactionButtons"></div>
+                </div>
+            </div>
+        </div>
+        <!--This is a card for where all of the GIFS will be displayed in-->
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-body">
+                        <h5 class="card-title">All the GIFS</h5>
+                        <hr class="my-4">
+                    <div id="reactionArea"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+<script type="text/javascript" src="assets/JavaScript/app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</body>
+
+</html>
