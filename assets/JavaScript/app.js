@@ -1,4 +1,4 @@
-$(document).ready(function() {
+
     //Array for searched reactions to be added
     var emotions = [];
     
@@ -43,6 +43,7 @@ $(document).ready(function() {
     }
     
       //Submit button click event takes search term from form input, trims and pushes to emotions array, displays button
+   
         $("#addReaction").on("click", function(event) {
             event.preventDefault();
             var newReaction = $("#reactionInput").val().trim();
@@ -85,4 +86,3 @@ $(document).ready(function() {
       }
     }
     
-  });
