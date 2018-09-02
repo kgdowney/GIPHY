@@ -20,3 +20,25 @@ body {
     font-weight: bold;
     color:#fC4A1a;
 }
+#reactionArea {
+    clear:both;
+    flex-wrap:wrap;
+}
+.reactionGiphy {
+	padding: 2px;
+	width: 80%;
+}
+.btn-group {
+    padding-right:auto;  
+}
+#theReaction {
+	padding:auto;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color:#fC4A1a;
+    border-color: #fC4A1a;
+}

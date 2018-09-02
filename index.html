@@ -30,47 +30,50 @@
                     <input id="addReaction" type="submit" value="Submit">
                 </form>
 
-                
+
             </div>
         </div>
     </div>
 
     <!--This is a card for the buttons using javascript/jquery-->
-    <div class="container"></div>
-    <div class="row">
-        <div class="col-lg-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Reactional Buttons</h5>
-                    <hr class="my-4">
-                    <div class="btn-group">
-                            <button class="btn btn-secondary" id="theReaction" data-search="happy">Happy</button>
-                            <button class="btn btn-secondary" id="theReaction" data-search="sad">Sad</button>
-                            <button class="btn btn-secondary" id="theReaction" data-search="angry">Angry</button>
-                            <button class="btn btn-secondary" id="theReaction" data-search="disgust">Disgusted</button>
-                            <button class="btn btn-secondary" id="theReaction" data-search="fear">Scared</button>
-                          </div>
-                    <div id="myButtons"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="btn-group">
+                            <button type="button" button class="btn btn-secondary" id="theReaction" data-search="happy">Happy</button>
+                            <button type="button"button class="btn btn-secondary" id="theReaction" data-search="sad">Sad</button>
+                            <button type="button"button class="btn btn-secondary" id="theReaction" data-search="angry">Angry</button>
+                            <button type="button"button class="btn btn-secondary" id="theReaction" data-search="disgust">Disgusted</button>
+                            <button type="button"button class="btn btn-secondary" id="theReaction" data-search="fear">Scared</button>
+                        </div>
+                        <div id="myButtons"></div>
+                    </div>
                 </div>
             </div>
         </div>
+        <br>
         <!--This is a card for where all of the GIFS will be displayed in-->
-        <div class="col-lg-6">
+    </div>
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-12">
             <div class="card">
                 <div class="card-body">
-                        <h5 class="card-title">All the GIFS</h5>
-                        <hr class="my-4">
-                    <div id="reactionArea"></div>
+                    <h3 class="card-title" align="center">Your Reactions</h3>
+                    <hr class="my-4">
+                    <div id="reactionArea" align="center"></div>
                 </div>
             </div>
         </div>
-
     </div>
+</div>
 
 
 
-<script type="text/javascript" src="assets/JavaScript/app.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/JavaScript/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 </body>
 

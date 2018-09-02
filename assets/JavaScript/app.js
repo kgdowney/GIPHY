@@ -9,7 +9,7 @@ $(document).ready(function() {
     var x = $(this).data("search");
     console.log(x);
   
-    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + x + "&api_key=x4MZ9O1HbmLmrigfDuc10vUMwH0XJJmiC&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + x + "&api_key=dc6zaTOxFJmzC&limit=10";
   
     console.log(queryURL);
   
@@ -21,7 +21,7 @@ $(document).ready(function() {
             console.log(results);
             for (var i = 0; i < results.length; i++) {
             
-            var showDiv = $("<div class='col-md-4'>");
+            var showDiv = $("<div class='col-md-12'>");
   
             var rating = results[i].rating;
             var defaultAnimatedSrc = results[i].images.fixed_height.url;
@@ -57,7 +57,7 @@ $(document).ready(function() {
       $("#myButtons").empty();
       for (var i = 0; i < topics.length; i++) {
         var a = $('<button class="btn btn-primary">');
-        a.attr("id", "show");
+        a.attr("id", "theReaction");
         a.attr("data-search", topics[i]);
         a.text(topics[i]);
         $("#myButtons").append(a);
